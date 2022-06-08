@@ -7,8 +7,7 @@ const resolvers = {
     },
 
     getAllPost: async () => {
-      const posts = await Post.find();
-      return await Posts.find();
+      return await Post.find();
     },
   },
 };
